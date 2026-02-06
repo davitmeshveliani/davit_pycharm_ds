@@ -275,7 +275,29 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# IDE
+.idea/
 
+# Виртуальное окружение
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Локальные и временные файлы проекта
+*.p
+*ლექციის*.py
+*სავარჯიშო*.py
+*გაკვეთილ*.py
+
+# Любые другие временные или неважные файлы
+*.log
+*.tmp
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 poetry.toml
