@@ -1,2 +1,0 @@
-# davit_pycharm_ds
-
