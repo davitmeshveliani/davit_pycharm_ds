@@ -11,22 +11,22 @@
 # Замена цифр на * одной строкой
 #\\\\\\\\\ 1,1 \\\\\\\\
 
-text = "My number is 123-456-789"
-result = "".join("*" if ch.isdigit() else ch for ch in text)
-print(result)
+# text = "My number is 123-456-789"
+# result = "".join("*" if ch.isdigit() else ch for ch in text)
+# print(result)
 #\\\\\\\\\\\\  1,2 \\\\\\\\\\\\\
 
-text = "My number is 123-456-789"
-result = ""
-for ch in text:
-    if ch.isdigit():
-        result += "*"
-    elif ch == "-":
-        result += "-"
-    else:
-        result += ch
-print("Строка:", text)
-print("Результат:", result)
+# text = "My number is 123-456-789"
+# result = ""
+# for ch in text:
+#     if ch.isdigit():
+#         result += "*"
+#     elif ch == "-":
+#         result += "-"
+#     else:
+#         result += ch
+# print("Строка:", text)
+# print("Результат:", result)
 
 ################################\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # Количество символов
